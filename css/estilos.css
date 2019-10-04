@@ -16,7 +16,7 @@ a{text-decoration: none}
 
 .contenedor{
     width: 90%;
-    max-width: 800px;
+    max-width: 950px;
     margin: auto;
     height: 100%;
     display: flex;
@@ -32,11 +32,11 @@ a{text-decoration: none}
     width: 100%;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------- EDICIÓN DE LA SECCIÓN DEL BANNER ----------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------- EDICIÓN DE LA SECCIÓN DEL BANNER -------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .slider_banner{
     overflow: hidden;
@@ -67,7 +67,7 @@ a{text-decoration: none}
 }
 
 .slider_banner .flecha_banner:hover{
-    color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.7);
 }
 
 .slider_banner .anterior{
@@ -121,7 +121,7 @@ a{text-decoration: none}
 }
 
 .slider_info .flecha_info:hover{
-    color: #00FF25;
+    color: rgba(0,0,0,0.7);
 }
 
 .slider_info .anterior{
@@ -143,14 +143,14 @@ a{text-decoration: none}
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 18px;
-    color: #332C2C;    
+    color: #B41648;    
 }
 
 .slider_info .informacion .trabajo{
     font-size: 25px;
     line-height: 25px;
     margin-bottom: 18px;
-    color: #135FF0;    
+    color: #2C2829;    
 }
 
 .slider_info .informacion .pais{
@@ -173,10 +173,10 @@ a{text-decoration: none}
 }
 
 .slider_info .informacion .texto{
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.2;
     color: #118EE7;   
-    text-align: justify;
+    text-align: center;
 }
 
 .slider_info .botones span{
@@ -189,7 +189,7 @@ a{text-decoration: none}
 }
 
 .slider_info .botones .active{
-    background-color: #00FF25;
+    background-color: #B41648;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -207,18 +207,15 @@ a{text-decoration: none}
 
 .redes_sociales a{
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
     background-color: black;
     color: white;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
-.redes_sociales .behance{background: #1769ff}
 .redes_sociales .facebook{background: #3b5998}
-.redes_sociales .twitter{background: #55acee}
-.redes_sociales .instagram{background: #E4405F}
 .redes_sociales .youtube{background: #c4302b}
